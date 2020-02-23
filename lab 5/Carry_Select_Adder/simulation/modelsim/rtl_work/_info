@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/simulation/modelsim
+vcarry_select_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1581557661
+!i10b 1
+!s100 ;N0MolB@f1_V4jdkzgoaQ3
+I>nzn9]86hLMHL[VUcn56=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 carry_select_adder_sv_unit
+S1
+R0
+Z5 w1581556699
+Z6 8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/carry_select_adder.sv
+Z7 FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/carry_select_adder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1581557661.000000
+Z10 !s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/carry_select_adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/carry_select_adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder}
+Z14 tCvgOpt 0
+vcarry_select_adder_4bit
+R1
+R2
+!i10b 1
+!s100 USg:OFcghW>znaSAU8o0z3
+I=<`DRP@fHX[<J^RH:3gA`2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 0l2CBAzQ5MQD7i?iY:XgK0
+ITIP:DJn7?MaF>0c7@0j;61
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 67
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vfull_adder_four_bit
+R1
+R2
+!i10b 1
+!s100 SY31^bS3EZf6FN9A97U^a0
+Ib>mf_1ZKekzmMd[kF=g933
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 52
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IT:]IQhT5BQKWa1[jfP<QC2
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1453932322
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/HexDriver.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Select_Adder/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver

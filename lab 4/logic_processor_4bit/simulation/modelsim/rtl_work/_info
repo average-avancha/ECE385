@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1581631637
+!i10b 1
+!s100 i=]6932U1_OWO<5E?3HbR1
+ID1^UE]NLbA>HoWL7n[iXY2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 compute_sv_unit
+S1
+R0
+w1473975283
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/compute.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/compute.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1581631637.000000
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/compute.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit}
+Z8 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 zA>KJEaR;hifiMGk<O7m^0
+Iki8_T?Eii2`QUe5d:de]63
+R3
+!s105 Control_sv_unit
+S1
+R0
+w1581631336
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Control.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Control.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Control.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+Z9 !s110 1581631636
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+I83:YjK=?i<NcSjCgRg1P_3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1472679712
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/HexDriver.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1581631636.000000
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vProcessor
+R1
+R2
+!i10b 1
+!s100 V>d?Ti8Dc4?RS0;B3ef>M0
+IP:iL5NBiQLfVQI1Jib0]^2
+R3
+!s105 Processor_sv_unit
+S1
+R0
+w1581458505
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Processor.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Processor.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Processor.sv|
+!i113 1
+R6
+R7
+R8
+n@processor
+vreg_4
+R1
+R9
+!i10b 1
+!s100 W5MjUZ7EQbR@jOCN^Ve:P2
+IL0le@RM_K@KF>QI=k_6;z0
+R3
+!s105 Reg_4_sv_unit
+S1
+R0
+w1581631591
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Reg_4.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Reg_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Reg_4.sv|
+!i113 1
+R6
+R7
+R8
+vregister_unit
+R1
+R2
+!i10b 1
+!s100 c?`W04Obk>`oYn_UgA>oj0
+IE3UXn;c=cZK3oVTz[[V^30
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+w1581459288
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Register_unit.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Register_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Register_unit.sv|
+!i113 1
+R6
+R7
+R8
+vrouter
+R1
+R9
+!i10b 1
+!s100 lIdD9@`9>^lYia[Dkg2aV0
+ImICA<8c72_ZWHJ?I8?WiX2
+R3
+!s105 Router_sv_unit
+S1
+R0
+w1472679706
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Router.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Router.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Router.sv|
+!i113 1
+R6
+R7
+R8
+vsync
+R1
+R9
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+I@`AgJXdBb>WY@40:2mYnQ1
+R3
+Z11 !s105 Synchronizers_sv_unit
+S1
+R0
+Z12 w1473642985
+Z13 8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Synchronizers.sv
+Z14 FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Synchronizers.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+Z15 !s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Synchronizers.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/Synchronizers.sv|
+!i113 1
+R6
+R7
+R8
+vsync_r0
+R1
+R9
+!i10b 1
+!s100 IGd9f_F;JNjVBLQ@DAnD10
+IOSj=G56Lf[LZFGnQKFSFc3
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 18
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vsync_r1
+R1
+R9
+!i10b 1
+!s100 1CXiH1DYDbAUS69Ee2j060
+IDV_=b:PEA?RQhMhj28DFM2
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 39
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R2
+!i10b 1
+!s100 ;J9O9OfMjMmYJ>Z^?Wd]Z1
+ILeLE@FLW^01<;k5a2A[9n1
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+w1410636164
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/testbench_8.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/testbench_8.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/logic_processor_4bit/testbench_8.sv|
+!i113 1
+R6
+R7
+R8

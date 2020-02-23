@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at carry_lookahead_adder.sv(25): object "P" differs only in case from object "p" in the same scope File: C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv Line: 25
+Info (10281): Verilog HDL Declaration information at carry_lookahead_adder.sv(25): object "G" differs only in case from object "g" in the same scope File: C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv Line: 25

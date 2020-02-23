@@ -1,0 +1,161 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead
+vcarry_lookahead_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1581624986
+!i10b 1
+!s100 D:ZeeV0X_9GI15flJmePA3
+I@;2:TUVfbWM<V@UeF1GWi3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 carry_lookahead_adder_sv_unit
+S1
+R0
+Z5 w1581623766
+Z6 8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv
+Z7 FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1581624986.000000
+Z10 !s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/carry_lookahead_adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead}
+Z14 tCvgOpt 0
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 KNz6i7<ZXF_3@m@dN:m;m2
+I]Hh59if[UkIK:@XTHhdkX1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 48
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IGDEHn>YB^zJl]XS^1]EFO3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1453932322
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/HexDriver.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vlab4_adders_toplevel
+R1
+R2
+!i10b 1
+!s100 Ff0C^ZK^zfkDz504]X;SI2
+IGfej>eW`@?5UaP4g0GBU>3
+R3
+!s105 lab4_adders_toplevel_sv_unit
+S1
+R0
+w1581624204
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/lab4_adders_toplevel.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/lab4_adders_toplevel.sv
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/lab4_adders_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/lab4_adders_toplevel.sv|
+!i113 1
+R12
+R13
+R14
+vlookahead_adder4
+R1
+R2
+!i10b 1
+!s100 Fh_>DZ4Zh=FbiD2;W<2Ma0
+IjdT43En4PW`;5zed4dIW[3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+!s110 1581624987
+!i10b 1
+!s100 LWBM7]0oS=HeBD^2MF8061
+I8gT;n]=>7CMUIe3hnXEm<0
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1581623863
+8C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/testbench.sv
+FC:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead|C:/Users/ritvi/OneDrive/UIUC/2020 Spring/ECE 385/Lab 4/Carry_Look_Ahead/testbench.sv|
+!i113 1
+R12
+R13
+R14
