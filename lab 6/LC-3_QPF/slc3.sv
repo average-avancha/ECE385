@@ -74,7 +74,7 @@ assign MIO_EN = ~OE;
 
 // You need to make your own datapath module and connect everything to the datapath
 // Be careful about whether Reset is active high or low
-datapath d0 (/* Please fill in the signals.... */);
+datapath d0 (.Clk, .Reset(.Reset_ah), .GatePC, .GateMDR, .GateALU, .GateMARMUX, .Data);
 
 // Our SRAM and I/O controller
 Mem2IO memory_subsystem(
@@ -96,4 +96,110 @@ ISDU state_controller(
     .Mem_CE(CE), .Mem_UB(UB), .Mem_LB(LB), .Mem_OE(OE), .Mem_WE(WE)
 );
 
+MUX_5 GATES_ (.);
+reg_16 MAR_  (.Clk, .Reset(Reset_ah), .Load(LD_MAR), .D(Data), .Q(ADDR));
+reg_16 MDR_  (.Clk, .Reset(Reset_ah), .Load(LD_MDR), .D(), .Q());
 endmodule
+module MUX_5(input  logic[15:0] PC, MDR, ALU, MARMUX, Data
+             input  logic       GatePC, GateMDR, GateALU, GateMARMUX,
+             output logic[15:0] Out);
+        always_comb
+        begin
+            if(GatePC)
+                assign Out = PC;
+            else if(GateMDR)
+                assign Out = MDR;
+            else if (GateALU)
+                assign Out = ALU;
+            else if (GateMARMUX)
+                assign Out = MARMUX;
+            else
+                assign Out = Data;
+        end
+endmodule 
+
+module datapath(input logic Clk, Reset, GatePC, GateMDR, GateALU, GateMARMUX,
+				inout logic[15:0] Data);
+    always_comb
+    begin
+
+    end
+endmodule 
+
+module reg_16 (input logic  Clk, Reset, Load,
+               input logic  [15:0] D,
+               output logic [15:0] Q);
+	always_ff @ (posedge Clk)
+    begin
+	 	if (Reset)
+			Q <= 16'h0;
+		else if (Load)
+			Q <= D;
+		else
+			Q <= Q;
+    end
+endmodule
+
+
+module reg_file(input  logic Clk, Reset, LD_REG,
+				input  logic [15:0] Input,
+				input  logic [2 :0] DR, SR1, SR2, 
+				output logic [15:0] SR1_OUT, SR2_OUT);
+		 logic[7:0][15:0] register;
+		 always_ff @ (posedge Clk)
+		 begin
+			register[0] <= register[0];
+			register[1] <= register[1];
+			register[2] <= register[2];
+			register[3] <= register[3];
+			register[4] <= register[4];
+			register[5] <= register[5];
+			register[6] <= register[6];
+			register[7] <= register[7];
+			if(Reset)
+				begin
+					register[0] <= 16'h0;
+					register[1] <= 16'h0;
+					register[2] <= 16'h0;
+					register[3] <= 16'h0;
+					register[4] <= 16'h0;
+					register[5] <= 16'h0;
+					register[6] <= 16'h0;
+					register[7] <= 16'h0;
+				end
+			else if (LD_REG)
+				case(DR)
+					3'b000: register[0] <= Input;
+					3'b001: register[1] <= Input;
+					3'b010: register[2] <= Input;
+					3'b011: register[3] <= Input;
+					3'b100: register[4] <= Input;
+					3'b101: register[5] <= Input;
+					3'b110: register[6] <= Input;
+					3'b111: register[7] <= Input;
+				endcase
+		 end
+		 always_comb
+		 begin
+			case(SR1)
+				3'b000: SR1_OUT = register[0];
+				3'b001: SR1_OUT = register[1];
+				3'b010: SR1_OUT = register[2];
+				3'b011: SR1_OUT = register[3];
+				3'b100: SR1_OUT = register[4];
+				3'b101: SR1_OUT = register[5];
+				3'b110: SR1_OUT = register[6];
+				3'b111: SR1_OUT = register[7];
+			endcase
+			case(SR2)
+				3'b000: SR2_OUT = register[0];
+				3'b001: SR2_OUT = register[1];
+				3'b010: SR2_OUT = register[2];
+				3'b011: SR2_OUT = register[3];
+				3'b100: SR2_OUT = register[4];
+				3'b101: SR2_OUT = register[5];
+				3'b110: SR2_OUT = register[6];
+				3'b111: SR2_OUT = register[7];
+			endcase
+		 end
+endmodule 
