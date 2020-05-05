@@ -1,0 +1,48 @@
+Quartus Prime Archive log --	C:/Users/ritvi/ece385/lab8/lab8/__lab7_usb.auto.qarlog
+
+Archive:	C:/Users/ritvi/ece385/lab8/lab8/__lab7_usb.auto.qar
+Date:		Fri Mar 27 11:21:15 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/ritvi/ece385/lab8/lab8/db/SignalTapTutorial_auto_stripped.stp
+C:/Users/ritvi/ece385/lab8/lab8/db/a_dpfifo_l011.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/a_fefifo_7cf.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/altsyncram_6mc1.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/altsyncram_ac71.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/altsyncram_nio1.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/altsyncram_sqg1.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/cntr_1ob.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/cntr_do7.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/lab7_usb.cbx.xml
+C:/Users/ritvi/ece385/lab8/lab8/db/lab8.qpf
+C:/Users/ritvi/ece385/lab8/lab8/db/mult_p5t.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/scfifo_jr21.tdf
+C:/Users/ritvi/ece385/lab8/lab8/db/vga_clk_altpll.v
+Color_Mapper.sv
+HexDriver.sv
+PLLJ_PLLSPE_INFO.txt
+SignalTapTutorial.stp
+VGA_controller.sv
+__lab7_usb.auto.qarlog
+ball.sv
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+hpi_io_intf.sv
+lab7_usb.flow.rpt
+lab7_usb.map.rpt
+lab7_usb.map.summary
+lab7_usb.qsf
+lab8.sdc
+lab8.sv
+lab8_assignment_defaults.qdf
+lab8_soc.qsys
+lab8_tmp_archive.qarlog
+mylog.txt
+readme.txt
+vga_clk.ppf
+vga_clk.qip
+vga_clk.v
+	======= Total: 37 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

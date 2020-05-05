@@ -1,0 +1,104 @@
+module priority_handler (input 			Clk, Reset,
+								 input			is_Pac, is_dot, is_Map, is_red_ghost,
+								 input  [6:0]   animation_count,
+								 input  [2:0]   direction_out,
+								 input  [9:0]	PacX, PacY, RedGhostX, RedGhostY, MapX, MapY,
+								 output [2:0]   direction,
+								 output [3:0]	ghost_addr,
+								 output [8:0]	map_addr,
+								 output [9:0]	DistX, DistY,
+								 output [7:0]	sprite_addr);
+   
+	parameter [7:0] sprite_padding = 8'd112;
+	parameter [3:0] ghost_padding = 4'd0;
+	parameter [8:0] map_padding = 9'd128;
+	
+   logic [2:0] next_direction;
+	
+	always_ff @ (posedge Clk)begin
+		if(Reset)
+			direction <= 3'b000;
+		else
+			direction <= next_direction;
+	end
+	always_comb begin
+		next_direction = direction_out;
+		if(direction_out == 3'b111)
+			next_direction = direction;
+	end
+	
+	
+	//Sprite Priority Handler
+	always_comb begin
+		if(is_Pac) begin
+			DistX = PacX;
+			DistY = PacY;
+			map_addr = 9'bz;
+			ghost_addr = 4'bz;
+			case (direction)
+				3'b000 : begin //W--> Up
+					if(animation_count >= 7'd0 && animation_count < 7'd3)
+						sprite_addr = 8'h00 + PacY[7:0] + sprite_padding;
+					else if (animation_count >= 7'd3 && animation_count < 7'd6)
+						sprite_addr = 8'h10 + PacY[7:0] + sprite_padding;
+					else 
+						sprite_addr = 8'h20 + PacY[7:0] + sprite_padding;
+				end
+				3'b001 : begin //A--> Left
+					if(animation_count >= 7'd0 && animation_count < 7'd3)
+						sprite_addr = 8'h00 + PacY[7:0] + sprite_padding;
+					else if (animation_count >= 7'd3 && animation_count < 7'd6)
+						sprite_addr = 8'h30 + PacY[7:0] + sprite_padding;
+					else
+						sprite_addr = 8'h40 + PacY[7:0] + sprite_padding;
+				end 
+				3'b010 : begin //S--> Down
+					if(animation_count >= 7'd0 && animation_count < 7'd3)
+						sprite_addr = 8'h00 + PacY[7:0] + sprite_padding;
+					else if (animation_count >= 7'd3 && animation_count < 7'd6)
+						sprite_addr = 8'h50 + PacY[7:0] + sprite_padding;
+					else
+						sprite_addr = 8'h60 + PacY[7:0] + sprite_padding;
+				end
+				3'b011 : begin //D--> Right
+					if(animation_count >= 7'd0 && animation_count < 7'd3)
+						sprite_addr = 8'h00 + PacY[7:0] + sprite_padding;
+					else if (animation_count >= 7'd3 && animation_count < 7'd6)
+						sprite_addr = 8'h70 + PacY[7:0] + sprite_padding;
+					else
+						sprite_addr = 8'h80 + PacY[7:0] + sprite_padding;
+				end
+				default : //Shouldn't hit the default case
+					sprite_addr = 8'h00 + DistY[7:0] + sprite_padding;
+			endcase
+		end
+		else if(is_red_ghost)begin
+			map_addr = 9'bz;
+			sprite_addr = 8'bz;
+			DistX = 10'bz;
+			DistY = 10'bz;
+			ghost_addr = RedGhostY + ghost_padding;
+		end
+		else if(is_dot) begin
+			map_addr = 9'bz;
+			sprite_addr = 8'bz;
+			ghost_addr = 4'bz;
+			DistX = 10'bz;
+			DistY = 10'bz;
+		end
+		else if(is_Map) begin
+			DistX = MapX;
+			DistY = MapY;
+			sprite_addr = 8'bz; 
+			ghost_addr = 4'bz;
+			map_addr = MapY[8:0] + map_padding;
+		end
+		else begin 
+			map_addr = 9'bz;
+         sprite_addr = 8'bz;
+			ghost_addr = 4'bz;
+			DistX = 10'bz;
+			DistY = 10'bz;
+		end
+   end
+endmodule 

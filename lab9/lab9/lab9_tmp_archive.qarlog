@@ -1,0 +1,89 @@
+Quartus Prime Archive log --	C:/Users/ritvi/ece385/lab9/lab9/lab9_tmp_archive.qarlog
+
+Archive:	C:/Users/ritvi/ece385/lab9/lab9/lab9_tmp_archive.qar
+Date:		Wed Apr 08 20:27:59 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/ritvi/ece385/lab9/lab9/AES.sv
+C:/Users/ritvi/ece385/lab9/lab9/AES_Decryption_Core_hw.tcl
+C:/Users/ritvi/ece385/lab9/lab9/InvMixColumns.sv
+C:/Users/ritvi/ece385/lab9/lab9/InvShiftRows.sv
+C:/Users/ritvi/ece385/lab9/lab9/KeyExpansion.sv
+C:/Users/ritvi/ece385/lab9/lab9/SubBytes.sv
+C:/Users/ritvi/ece385/lab9/lab9/addroundkey.sv
+C:/Users/ritvi/ece385/lab9/lab9/aes.h
+C:/Users/ritvi/ece385/lab9/lab9/avalon_aes_interface.sv
+C:/Users/ritvi/ece385/lab9/lab9/hexdriver.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9.qpf
+C:/Users/ritvi/ece385/lab9/lab9/lab9.qsf
+C:/Users/ritvi/ece385/lab9/lab9/lab9.sdc
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc.qsys
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc.sopcinfo
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/lab9_soc.cmp
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/lab9_soc.debuginfo
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/lab9_soc.qip
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/lab9_soc.regmap
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/lab9_soc.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.sdc
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_TIMER.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.sdc
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_ociram_default_contents.mif
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_rf_ram_a.mif
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_rf_ram_b.mif
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.hex
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+C:/Users/ritvi/ece385/lab9/lab9/lab9_top.sv
+C:/Users/ritvi/ece385/lab9/lab9/testbench.sv
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 72 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Apr 08 20:28:02 2020
+Source archive file:	C:/Users/ritvi/ece385/lab9/lab9/lab9_tmp_archive.qar
+Archive was extracted into	C:/Users/ritvi/ece385/lab9/lab9_sub/rra2_sphan5/
+		 - successfully.

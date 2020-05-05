@@ -1,0 +1,26 @@
+module controls_game   (input Clk,
+                        input Reset,
+                        input [7:0] keycode,
+                        output [2:0] LD_Score,
+                        );
+enum logic [2:0] {START, WAIT, PLAY, RELOAD, END} state, next_state;
+always_ff @ (posedge Clk) begin
+    if(Reset)
+        state <= START;
+    else
+        state <= next_state;
+end
+
+always_comb begin
+    next_state = state; //default state
+    LD_Score = 3'b000;
+    
+    unique case (state)
+        START : ;
+        WAIT : ;
+        PLAY : ;
+        RELOAD : ;
+        E
+    endcase
+end
+endmodule

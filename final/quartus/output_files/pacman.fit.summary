@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 05 14:56:53 2020
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : pacman
+Top-level Entity Name : pacman_top
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 16,474 / 114,480 ( 14 % )
+    Total combinational functions : 15,820 / 114,480 ( 14 % )
+    Dedicated logic registers : 2,428 / 114,480 ( 2 % )
+Total registers : 2547
+Total pins : 170 / 529 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 11,392 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 144 / 532 ( 27 % )
+Total PLLs : 2 / 4 ( 50 % )

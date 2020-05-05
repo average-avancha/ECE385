@@ -1,0 +1,10 @@
+module testbench();
+
+timeunit 10ns;
+
+logic is_sprite,
+logic [9:0] DrawX, DrawY,
+logic [9:0] DistX, DistY,
+logic CE, UB, LB, OE,
+logic [19:0] SRAM_ADDR
+

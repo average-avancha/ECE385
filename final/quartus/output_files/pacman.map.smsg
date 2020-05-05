@@ -1,0 +1,52 @@
+Warning (10273): Verilog HDL warning at hpi_io_intf.sv(48): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/hpi_io_intf.sv Line: 48
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/HexDriver.sv Line: 23
+Info (10281): Verilog HDL Declaration information at controls_game.sv(11): object "reload" differs only in case from object "RELOAD" in the same scope File: C:/Users/ritvi/ece385/final/quartus/controls_game.sv Line: 11
+Warning (10273): Verilog HDL warning at priority_handler.sv(93): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 93
+Warning (10273): Verilog HDL warning at priority_handler.sv(94): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 94
+Warning (10273): Verilog HDL warning at priority_handler.sv(96): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 96
+Warning (10273): Verilog HDL warning at priority_handler.sv(137): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 137
+Warning (10273): Verilog HDL warning at priority_handler.sv(143): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 143
+Warning (10273): Verilog HDL warning at priority_handler.sv(152): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 152
+Warning (10273): Verilog HDL warning at priority_handler.sv(161): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 161
+Warning (10273): Verilog HDL warning at priority_handler.sv(170): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 170
+Warning (10273): Verilog HDL warning at priority_handler.sv(180): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 180
+Warning (10273): Verilog HDL warning at priority_handler.sv(186): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 186
+Warning (10273): Verilog HDL warning at priority_handler.sv(187): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 187
+Warning (10273): Verilog HDL warning at priority_handler.sv(188): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 188
+Warning (10273): Verilog HDL warning at priority_handler.sv(229): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 229
+Warning (10273): Verilog HDL warning at priority_handler.sv(230): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 230
+Warning (10273): Verilog HDL warning at priority_handler.sv(231): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 231
+Warning (10273): Verilog HDL warning at priority_handler.sv(272): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 272
+Warning (10273): Verilog HDL warning at priority_handler.sv(273): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 273
+Warning (10273): Verilog HDL warning at priority_handler.sv(274): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 274
+Warning (10273): Verilog HDL warning at priority_handler.sv(315): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 315
+Warning (10273): Verilog HDL warning at priority_handler.sv(316): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 316
+Warning (10273): Verilog HDL warning at priority_handler.sv(317): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 317
+Warning (10273): Verilog HDL warning at priority_handler.sv(358): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 358
+Warning (10273): Verilog HDL warning at priority_handler.sv(359): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 359
+Warning (10273): Verilog HDL warning at priority_handler.sv(360): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 360
+Warning (10273): Verilog HDL warning at priority_handler.sv(361): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 361
+Warning (10273): Verilog HDL warning at priority_handler.sv(362): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 362
+Warning (10273): Verilog HDL warning at priority_handler.sv(363): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 363
+Warning (10273): Verilog HDL warning at priority_handler.sv(368): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 368
+Warning (10273): Verilog HDL warning at priority_handler.sv(369): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 369
+Warning (10273): Verilog HDL warning at priority_handler.sv(370): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 370
+Warning (10273): Verilog HDL warning at priority_handler.sv(374): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 374
+Warning (10273): Verilog HDL warning at priority_handler.sv(375): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 375
+Warning (10273): Verilog HDL warning at priority_handler.sv(376): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 376
+Warning (10273): Verilog HDL warning at priority_handler.sv(377): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 377
+Warning (10273): Verilog HDL warning at priority_handler.sv(378): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 378
+Warning (10273): Verilog HDL warning at priority_handler.sv(379): extended using "x" or "z" File: C:/Users/ritvi/ece385/final/quartus/priority_handler.sv Line: 379
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router.sv Line: 48
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router.sv Line: 49
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_001.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_001.sv Line: 48
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_001.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_001.sv Line: 49
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_002.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_002.sv Line: 48
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_002.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_002.sv Line: 49
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_003.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_003.sv Line: 48
+Info (10281): Verilog HDL Declaration information at lab8_soc_mm_interconnect_0_router_003.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_003.sv Line: 49
+Warning (10236): Verilog HDL Implicit Net warning at Color_Mapper.sv(36): created implicit net for "map_blink" File: C:/Users/ritvi/ece385/final/quartus/Color_Mapper.sv Line: 36
+Warning (10037): Verilog HDL or VHDL warning at lab8_soc_sdram.v(318): conditional expression evaluates to a constant File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 318
+Warning (10037): Verilog HDL or VHDL warning at lab8_soc_sdram.v(328): conditional expression evaluates to a constant File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 328
+Warning (10037): Verilog HDL or VHDL warning at lab8_soc_sdram.v(338): conditional expression evaluates to a constant File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 338
+Warning (10037): Verilog HDL or VHDL warning at lab8_soc_sdram.v(682): conditional expression evaluates to a constant File: C:/Users/ritvi/ece385/final/quartus/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 682

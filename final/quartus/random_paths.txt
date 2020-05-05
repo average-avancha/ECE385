@@ -1,0 +1,5 @@
+Initially --> Pick a random direction and move in that direction
+
+If intersection is met ---> continue % 2. If this is 0, then attempt to go 
+in one of the possible directions at the intersection (prevent it from going backwards), else continue moving
+in the direction it was moving before.

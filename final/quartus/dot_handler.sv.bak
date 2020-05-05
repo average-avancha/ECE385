@@ -1,0 +1,5 @@
+module dot_handler (input Clk, 
+						  input Reset
+						  input PacX, PacY,
+						  output );
+endmodule 

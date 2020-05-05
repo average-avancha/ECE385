@@ -1,0 +1,5 @@
+module score(
+				
+				output [19:0] current_score);
+	
+endmodule 

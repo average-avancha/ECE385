@@ -1,0 +1,6 @@
+if (U_Dist < D_Dist) {
+	if upper_walls not 1: go up
+	else { //can't go up
+		
+	}
+}

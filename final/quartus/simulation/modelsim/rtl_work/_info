@@ -1,0 +1,105 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ritvi/ece385/final/quartus/simulation/modelsim
+vtristate
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1587077485
+!i10b 1
+!s100 JNYF:EFPNWhHjeM0g=Ph^3
+Iegz^_1eEJkaH2QQLH`T6d3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 tristate_sv_unit
+S1
+R0
+w1586997575
+8C:/Users/ritvi/ece385/final/quartus/tristate.sv
+FC:/Users/ritvi/ece385/final/quartus/tristate.sv
+L0 16
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1587077485.000000
+!s107 C:/Users/ritvi/ece385/final/quartus/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/ece385/final/quartus|C:/Users/ritvi/ece385/final/quartus/tristate.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/ritvi/ece385/final/quartus
+Z8 tCvgOpt 0
+vvga_clk
+Z9 !s110 1587077483
+!i10b 1
+!s100 OGlLO8;N^^k^>BA7[_bgn1
+I4JQn8LL]@@=Un?J;0gN>:0
+R3
+R0
+Z10 w1584887288
+8C:/Users/ritvi/ece385/final/quartus/vga_clk.v
+FC:/Users/ritvi/ece385/final/quartus/vga_clk.v
+L0 40
+R4
+r1
+!s85 0
+31
+Z11 !s108 1587077483.000000
+!s107 C:/Users/ritvi/ece385/final/quartus/vga_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ritvi/ece385/final/quartus|C:/Users/ritvi/ece385/final/quartus/vga_clk.v|
+!i113 1
+Z12 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/ritvi/ece385/final/quartus
+R8
+vvga_clk_altpll
+R9
+!i10b 1
+!s100 M:z4m=8?iG0fP6=5PXSTl1
+I6baPk;U`Ym^HRZDF5G[]D0
+R3
+R0
+w1584993328
+8C:/Users/ritvi/ece385/final/quartus/db/vga_clk_altpll.v
+FC:/Users/ritvi/ece385/final/quartus/db/vga_clk_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ritvi/ece385/final/quartus/db/vga_clk_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ritvi/ece385/final/quartus/db|C:/Users/ritvi/ece385/final/quartus/db/vga_clk_altpll.v|
+!i113 1
+R12
+!s92 -vlog01compat -work work +incdir+C:/Users/ritvi/ece385/final/quartus/db
+R8
+vVGA_controller
+R1
+R2
+!i10b 1
+!s100 iZ^ZkeRFZV@Tdc684OR@G2
+IzWdd<HganD0Z;6105WaZW2
+R3
+!s105 VGA_controller_sv_unit
+S1
+R0
+R10
+8C:/Users/ritvi/ece385/final/quartus/VGA_controller.sv
+FC:/Users/ritvi/ece385/final/quartus/VGA_controller.sv
+L0 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ritvi/ece385/final/quartus/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ritvi/ece385/final/quartus|C:/Users/ritvi/ece385/final/quartus/VGA_controller.sv|
+!i113 1
+R6
+R7
+R8
+n@v@g@a_controller

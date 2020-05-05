@@ -1,0 +1,1434 @@
+13:42:35 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:42:39 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:42:39 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:42:46 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:47:42 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:47:43 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:47:56 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:47:57 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:48:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:52:13 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:52:14 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:52:21 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:06:03 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130947 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+14:06:05 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:06:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:10:35 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:10:36 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:10:44 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:15:14 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:15:15 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:15:27 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:19:05 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:19:06 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:19:14 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:23:12 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:23:13 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:23:24 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:28:15 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:28:16 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:28:27 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:32:45 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:32:46 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:33:03 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:37:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:37:12 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:37:24 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:42:12 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:42:13 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:42:24 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:46:38 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:46:39 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:46:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:51:53 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:51:54 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:52:01 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:01:21 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:01:22 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:01:28 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:06:17 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:06:17 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:07:37 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:07:38 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:07:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:11:51 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:11:51 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:11:59 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:16:15 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:16:16 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:16:23 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:20:43 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:20:44 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:20:50 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:28:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:28:05 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:28:14 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:33:16 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:33:17 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:33:34 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:38:52 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:38:53 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:39:00 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:44:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:44:12 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:44:20 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:57:09 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:57:10 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:58:33 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:58:34 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:58:40 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:07:27 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:07:28 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:07:35 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:11:33 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:11:34 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:11:56 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:21:56 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:21:57 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:22:07 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:27:38 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:27:39 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:27:46 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:38:03 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:38:04 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:38:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:59:22 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:59:23 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:59:32 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:04:41 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:04:42 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+17:04:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:14:17 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:14:18 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+17:14:31 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:27:52 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:27:53 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+17:28:02 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:32:06 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+17:32:07 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+17:32:15 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:00:52 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:00:52 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:00:59 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:05:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130947 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+18:05:06 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:05:19 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:12:13 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130947 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+18:12:15 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:12:26 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:16:45 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:16:46 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:16:59 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:21:28 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:21:29 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:21:40 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:28:39 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:28:40 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:28:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:38:40 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:38:40 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:38:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:49:29 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+18:49:29 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+18:49:36 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:31:58 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+19:32:00 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:32:07 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:33:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:33:05 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:33:13 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:37:57 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:37:57 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:38:06 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:45:40 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:45:41 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:45:48 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:52:14 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:52:15 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:52:19 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:56:02 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+19:56:03 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+19:56:09 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:00:52 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:00:53 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+20:00:58 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:06:38 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:06:38 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+20:06:43 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:10:40 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:10:40 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+20:10:47 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:22:43 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:22:44 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+20:22:52 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:24:33 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+20:24:35 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+20:24:43 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+20:25:18 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:19:33 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:19:34 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:19:44 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:22:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:22:05 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:22:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:22:29 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:26:53 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:26:54 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:27:00 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:31:56 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:31:57 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:32:11 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:33:34 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:33:35 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:33:45 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:44:02 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:163:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+12:44:06 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+12:44:12 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:48:39 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:53:36 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:53:37 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+12:53:42 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:54:39 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:31:13 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:31:13 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:31:32 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:32:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:42:09 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:150:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+main.c: In function 'KeyExpansion':
+main.c:203:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main()
+     ^
+main.c:267:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [obj/default/main.o] Error 1
+13:42:10 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:42:18 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'encrypt':
+main.c:150:6: warning: unused variable 'msg_size' [-Wunused-variable]
+  int msg_size = 16;
+      ^
+main.c: In function 'KeyExpansion':
+main.c:203:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main()
+     ^
+main.c:267:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [obj/default/main.o] Error 1
+13:44:30 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+13:44:33 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:44:44 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:46:46 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586370309 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+13:46:48 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+13:47:01 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+13:47:42 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:55:59 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:56:00 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+14:56:09 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+14:57:14 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:04:30 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+Compiling alt_alarm_start.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+Compiling alt_busy_sleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+Compiling alt_close.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+Compiling alt_dcache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+Compiling alt_dcache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+Compiling alt_dcache_flush_no_writeback.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+Compiling alt_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+Compiling alt_dma_rxchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+Compiling alt_dma_txchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+Compiling alt_ecc_fatal_exception.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+Compiling alt_exception_entry.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+Compiling alt_exit.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+Compiling alt_fcntl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+Compiling alt_fd_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+Compiling alt_fd_unlock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+Compiling alt_find_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+Compiling alt_find_file.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+Compiling alt_flash_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+Compiling alt_fs_reg.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+Compiling alt_fstat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+Compiling alt_get_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+Compiling alt_gmon.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+Compiling alt_icache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+Compiling alt_icache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+Compiling alt_iic.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+Compiling alt_iic_isr_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+Compiling alt_instruction_exception_entry.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+Compiling alt_instruction_exception_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+Compiling alt_io_redirect.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+Compiling alt_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+Compiling alt_irq_entry.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+Compiling alt_irq_handler.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+Compiling alt_irq_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+Compiling alt_irq_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+Compiling alt_isatty.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+Compiling alt_lseek.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+Compiling alt_main.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+Compiling alt_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+Compiling alt_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+Compiling alt_release_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+Compiling alt_remap_cached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+Compiling alt_remap_uncached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+Compiling alt_sbrk.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+Compiling alt_software_exception.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+Compiling alt_tick.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+Compiling alt_uncached_free.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+Compiling alt_uncached_malloc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+Compiling alt_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+Compiling altera_nios2_gen2_irq.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/altera_nios2_gen2_irq.o HAL/src/altera_nios2_gen2_irq.c
+Compiling crt0.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+Compiling alt_sys_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/alt_sys_init.o alt_sys_init.c
+Compiling altera_avalon_jtag_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+Compiling altera_avalon_jtag_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+Compiling altera_avalon_jtag_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+Compiling altera_avalon_jtag_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+Compiling altera_avalon_jtag_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+Compiling altera_avalon_sysid_qsys.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_sysid_qsys.o drivers/src/altera_avalon_sysid_qsys.c
+Compiling altera_avalon_timer_sc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_sc.o drivers/src/altera_avalon_timer_sc.c
+Compiling altera_avalon_timer_ts.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_ts.o drivers/src/altera_avalon_timer_ts.c
+Compiling altera_avalon_timer_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_vars.o drivers/src/altera_avalon_timer_vars.c
+Creating libhal_bsp.a...
+rm -f -f libhal_bsp.a
+nios2-elf-ar -src libhal_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_env_lock.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_malloc_lock.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putcharbuf.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_gen2_irq.o obj/HAL/src/crt0.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_sysid_qsys.o obj/drivers/src/altera_avalon_timer_sc.o obj/drivers/src/altera_avalon_timer_ts.o obj/drivers/src/altera_avalon_timer_vars.o
+[BSP build complete]
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586548876 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+15:04:37 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:04:46 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:05:16 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+15:16:38 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586548876 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+15:16:40 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+15:16:45 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:28:13 **** Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab9_app_bsp//HAL/inc -I../lab9_app_bsp/ -I../lab9_app_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking lab9_app.elf
+nios2-elf-g++  -T'../lab9_app_bsp//linker.x' -msys-crt0='../lab9_app_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab9_app_bsp/   -Wl,-Map=lab9_app.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab9_app.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab9_app.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x98 --timestamp 1586548876 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name lab9_soc --quartus_project_dir "C:/Users/ritvi/ece385/lab9/lab9" --jdi ../..//output_files/lab9.jdi --sopcinfo C:/Users/ritvi/ece385/lab9/lab9/software/lab9_app_bsp/../../lab9_soc.sopcinfo
+Info: (lab9_app.elf) 115 KBytes program size (code + initialized data).
+Info:                130948 KBytes free for stack + heap.
+Info: Creating lab9_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab9_app.elf >lab9_app.objdump
+[lab9_app build complete]
+16:28:15 **** Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:28:21 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:34:09 **** Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:34:10 **** Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:34:17 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:35:14 **** Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:35:14 **** Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+16:35:28 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+16:36:39 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:53:13 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:53:14 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+12:53:20 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:55:57 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]
+12:55:58 **** Incremental Build of configuration Nios II for project lab9_app_bsp ****
+make all 
+[BSP build complete]
+12:56:04 **** Incremental Build of configuration Nios II for project lab9_app ****
+make all 
+Info: Building ../lab9_app_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab9_app_bsp/
+[BSP build complete]
+[lab9_app build complete]

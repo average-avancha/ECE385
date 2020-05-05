@@ -1,0 +1,9 @@
+module ghostROM (input [7:0] addr,
+                 output [15:0] data);
+
+    parameter ADDR_WIDTH = 8;
+    parameter DATA_WIDTH = 16;
+	 
+    parameter [0:2**ADDR_WIDTH - 1][DATA_WIDTH-1:0] ROM = {
+	 
+endmodule 

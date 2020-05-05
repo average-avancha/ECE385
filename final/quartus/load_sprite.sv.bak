@@ -1,0 +1,4 @@
+module load_sprite(input  [6:0] sprite_idx,
+						 output [9:0] sprite_x, sprite_y);
+	
+endmodule

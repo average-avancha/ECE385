@@ -1,0 +1,11 @@
+Round(1)key :                    b6 64 be 68 
+                                 92 3d 9b 30 
+                                 cf bd c5 b3 
+                                 0b f1 00 fe
+b6 92 cf 0b 64 3d bd f1 be 9b c5 00 68 30 b3 fe -> correct
+
+State at start of round 1 :      9e 3e 8f 12 
+                                 e8 63 21 e1 
+                                 9d 13 a2 13 
+                                 ba 0a c9 1b
+9e e8 9d ba 3e 63 13 0a |missing col| 12 e1 13 1b {10 78 61 cd} -> incorrect
