@@ -31,8 +31,8 @@ hexFile = open("./sprite_bytes/" + filename + "_hex" + '.txt', 'w')
 i = 0
 for y in range(im.size[1]):
     col = 0
-    hexFile.write("16'h")
-    outFile.write("16'b")
+    hexFile.write("109'h")
+    outFile.write("109'b")
     for x in range(im.size[0]):
         pixel = im.getpixel((x,y))
         print(pixel)
@@ -50,7 +50,7 @@ for y in range(im.size[1]):
             binary_string = bin(int(hex_data, scale))[2:].zfill(num_of_bits)
             outFile.write("%s" %str(1))
             hexFile.write("%x" %(index))
-        if(col == 15):
+        if(col == 108):
             if(y == im.size[1] - 1):
                 outFile.write("\n")
                 hexFile.write("\n")
